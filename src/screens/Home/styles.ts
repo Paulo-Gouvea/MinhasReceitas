@@ -12,7 +12,13 @@ export const Container = styled.View`
   flex: 1;
 
   background-color: #f5f5f5;
-  padding-top: 40px;
+  padding: 45px 0px;
+
+  align-items: center;
+`;
+
+export const Title = styled.Text`
+  font-size: 25px;
 `;
 
 export const Wrapper = styled.View`

@@ -3,6 +3,7 @@ import { StatusBar } from 'react-native';
 
 import {
     Container,
+    Title,
     Wrapper,
     RecipeList,
 } from './styles';
@@ -19,6 +20,7 @@ export function Home(){
                 backgroundColor="transparent"
                 barStyle="dark-content"
             />
+            <Title>MINHAS RECEITAS</Title>
             <Wrapper>
                 <RecipeList
                     data={recipes}

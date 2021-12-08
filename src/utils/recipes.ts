@@ -14,6 +14,53 @@ export const recipes = [
             "Faça bolinhas e achate-as, use papel manteiga para não grudar na forma.",
             "Não colocar as bolinhas muito próximas para que não grudem.",
             "Assar em forno pré-aquecido a temperatura média de 180ºC por aproximadamente 15 minutos.",
+        ],
+        ingredients: [
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            }
         ]
     },
     {
@@ -31,6 +78,53 @@ export const recipes = [
             "Faça bolinhas e achate-as, use papel manteiga para não grudar na forma.",
             "Não colocar as bolinhas muito próximas para que não grudem.",
             "Assar em forno pré-aquecido a temperatura média de 180ºC por aproximadamente 15 minutos."
+        ],
+        ingredients: [
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            }
         ]
     },
     {
@@ -48,6 +142,53 @@ export const recipes = [
             "Faça bolinhas e achate-as, use papel manteiga para não grudar na forma.",
             "Não colocar as bolinhas muito próximas para que não grudem.",
             "Assar em forno pré-aquecido a temperatura média de 180ºC por aproximadamente 15 minutos."
+        ],
+        ingredients: [
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            }
         ]
     },
     {
@@ -65,6 +206,53 @@ export const recipes = [
             "Faça bolinhas e achate-as, use papel manteiga para não grudar na forma.",
             "Não colocar as bolinhas muito próximas para que não grudem.",
             "Assar em forno pré-aquecido a temperatura média de 180ºC por aproximadamente 15 minutos."
+        ],
+        ingredients: [
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            }
         ]
     },
     {
@@ -82,6 +270,53 @@ export const recipes = [
             "Faça bolinhas e achate-as, use papel manteiga para não grudar na forma.",
             "Não colocar as bolinhas muito próximas para que não grudem.",
             "Assar em forno pré-aquecido a temperatura média de 180ºC por aproximadamente 15 minutos."
+        ],
+        ingredients: [
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            }
         ]
     },
     {
@@ -99,6 +334,53 @@ export const recipes = [
             "Faça bolinhas e achate-as, use papel manteiga para não grudar na forma.",
             "Não colocar as bolinhas muito próximas para que não grudem.",
             "Assar em forno pré-aquecido a temperatura média de 180ºC por aproximadamente 15 minutos."
+        ],
+        ingredients: [
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            }
         ]
     },
     {
@@ -116,6 +398,53 @@ export const recipes = [
             "Faça bolinhas e achate-as, use papel manteiga para não grudar na forma.",
             "Não colocar as bolinhas muito próximas para que não grudem.",
             "Assar em forno pré-aquecido a temperatura média de 180ºC por aproximadamente 15 minutos."
+        ],
+        ingredients: [
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            }
         ]
     },
     {
@@ -133,6 +462,53 @@ export const recipes = [
             "Faça bolinhas e achate-as, use papel manteiga para não grudar na forma.",
             "Não colocar as bolinhas muito próximas para que não grudem.",
             "Assar em forno pré-aquecido a temperatura média de 180ºC por aproximadamente 15 minutos."
+        ],
+        ingredients: [
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            }
         ]
     },
     {
@@ -150,6 +526,53 @@ export const recipes = [
             "Faça bolinhas e achate-as, use papel manteiga para não grudar na forma.",
             "Não colocar as bolinhas muito próximas para que não grudem.",
             "Assar em forno pré-aquecido a temperatura média de 180ºC por aproximadamente 15 minutos."
+        ],
+        ingredients: [
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            }
         ]
     },
     {
@@ -167,6 +590,53 @@ export const recipes = [
             "Faça bolinhas e achate-as, use papel manteiga para não grudar na forma.",
             "Não colocar as bolinhas muito próximas para que não grudem.",
             "Assar em forno pré-aquecido a temperatura média de 180ºC por aproximadamente 15 minutos."
+        ],
+        ingredients: [
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            },
+            {
+                title: "manteiga",
+                quantity: "200 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX8F-feUURn5ha2_lC5t0BEQFpSEOaQNgsQ&usqp=CAU"
+            },
+            {
+                title: "chocolate",
+                quantity: "250 gramas",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8pX25PtSckd1n8ZHjoLwLaMzRaTwGtkRpA&usqp=CAU"
+            },
+            {
+                title: "ovos",
+                quantity: "2 unidades",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRr-dA499FoDgCEnKwOBk2DEkDQsad0u52lA&usqp=CAU"
+            }
         ]
     },
 ]
