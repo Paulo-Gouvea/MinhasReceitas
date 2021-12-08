@@ -1,4 +1,5 @@
 import React from 'react';
+import { RectButtonProps } from 'react-native-gesture-handler';
 
 import {
  Container,
@@ -14,15 +15,18 @@ interface DataProps {
     category: string;
 }
 
-interface RecipeProps {
-    data: DataProps
+interface RecipeProps extends RectButtonProps {
+    data: DataProps;
 }
 
-export function Recipe({
-    data
+export function RecipeCard({
+    data,
+    ...rest
 }: RecipeProps){
    return (
-        <Container>
+        <Container
+            {...rest}
+        >
             <RecipeWrapper>
                 <RecipeImage
                     source={{ uri: data.image }}

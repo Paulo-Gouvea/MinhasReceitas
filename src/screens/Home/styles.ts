@@ -11,7 +11,8 @@ interface RecipeProps {
 export const Container = styled.View`
   flex: 1;
 
-  margin-top: 50px;
+  background-color: #f5f5f5;
+  padding-top: 40px;
 `;
 
 export const Wrapper = styled.View`

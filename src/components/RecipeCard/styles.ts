@@ -1,6 +1,7 @@
 import styled from 'styled-components/native';
+import { RectButton } from 'react-native-gesture-handler';
 
-export const Container = styled.View`
+export const Container = styled(RectButton)`
     width: 150px;
     height: 225px;
 
@@ -10,6 +11,8 @@ export const Container = styled.View`
     margin: 10px;
     border: 1px solid black;
     border-radius: 8px;
+
+    background-color: #ffffff;
 `;
 
 export const RecipeWrapper = styled.View`
