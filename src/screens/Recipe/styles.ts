@@ -7,13 +7,13 @@ export const Container = styled.View`
 
 export const RecipeImage = styled.Image`
     width: 100%;
-    height: 40%;
+    height: 30%;
 `;
 
 export const Content = styled.View`
     align-items: center;
 
-    padding-top: 40px;
+    padding-top: 30px;
     width: 85%;
 `
 
@@ -37,7 +37,7 @@ export const Preparation = styled.View`
 
     align-items: center;
 
-    margin-top: 10px;
+    margin: 10px 0 20px 0;
 `;
 
 export const PreparationText = styled.Text`
@@ -46,9 +46,21 @@ export const PreparationText = styled.Text`
 `;
 
 export const Direction = styled.View`
-    height: 53%;
+    height: 45%;
+
+    margin-top: 30px;
+`;
+
+export const DirectionContainer = styled.View`
+    flex-direction: row;
+    align-items: flex-start;
 `;
 
 export const DirectionText = styled.Text`
+    margin-top: -6px;
+    margin-bottom: 20px;
+    margin-left: 10px;
 
+    font-size: 15px;
+    font-weight: bold;
 `;

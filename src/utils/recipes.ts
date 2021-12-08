@@ -6,7 +6,7 @@ export const recipes = [
         category: "Cookies",
         preparationTime: "45 minutos",
         directions: [
-            "Bata a manteiga, o açucar mascavo e o açúcar branco na batedeira até que fique uma mistura homogênea.",
+            "Bata a manteiga, o açúcar mascavo e o açúcar branco na batedeira até que fique uma mistura homogênea.",
             "Adicione os 2 ovos e a essência de baunilha.",
             "Com o auxilio de uma peneira, adicione a farinha, o sal e o fermento em pó e bata tudo na batedeira.",
             "Adicione as gotas de chocolate à massa, e misture à mão.",
@@ -14,10 +14,6 @@ export const recipes = [
             "Faça bolinhas e achate-as, use papel manteiga para não grudar na forma.",
             "Não colocar as bolinhas muito próximas para que não grudem.",
             "Assar em forno pré-aquecido a temperatura média de 180ºC por aproximadamente 15 minutos.",
-            "hfgdjkgujdfkluklldclukc",
-            "jfghkuukcukukluyflylffyllyf",
-            "dfgnhjhykjufdkdckjcjjc",
-            "cn hkmgjhkjhjcgjghcyy",
         ]
     },
     {

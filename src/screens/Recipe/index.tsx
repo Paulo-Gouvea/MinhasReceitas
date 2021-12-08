@@ -1,6 +1,6 @@
 import React from 'react';
 import { StatusBar, ScrollView } from 'react-native';
-import { Entypo } from '@expo/vector-icons';
+import { Entypo, AntDesign } from '@expo/vector-icons';
 
 import {
  Container,
@@ -11,10 +11,13 @@ import {
  Preparation,
  PreparationText,
  Direction,
+ DirectionContainer,
  DirectionText
 } from './styles';
 
 import { recipes } from '../../utils/recipes';
+
+import { Button } from '../../components/Button';
 
 export function Recipe(){
     const cookie = recipes[0];
@@ -39,17 +42,30 @@ export function Recipe(){
                 />
                 <PreparationText>{cookie.preparationTime}</PreparationText>
             </Preparation>
+
+            <Button 
+                title="Ver os ingredientes"
+                onPress={() => console.log("Ver os ingredientes")}
+            />
+
             <Direction>
                 <ScrollView
                     showsVerticalScrollIndicator={false}
+                    style={{paddingTop: 5}}
                 >    
                     {
                         cookie.directions.map((item)=> (
-                            <DirectionText
+                            <DirectionContainer
                                 key={item}
                             >
-                                {item}
-                            </DirectionText>
+                                <AntDesign
+                                    name="arrowright"
+                                    size={10}
+                                />
+                                <DirectionText>
+                                    {item}
+                                </DirectionText>
+                            </DirectionContainer>
                         ))
                     }
                 </ScrollView>
