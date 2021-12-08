@@ -1,9 +1,10 @@
 import React from 'react';
 import { StatusBar, ScrollView } from 'react-native';
-import { Entypo, AntDesign } from '@expo/vector-icons';
+import { Entypo, AntDesign, Ionicons } from '@expo/vector-icons';
 
 import {
  Container,
+ Wrapper,
  RecipeImage,
  Content,
  Title, 
@@ -12,7 +13,8 @@ import {
  PreparationText,
  Direction,
  DirectionContainer,
- DirectionText
+ DirectionText,
+ IconContainer,
 } from './styles';
 
 import { recipes } from '../../utils/recipes';
@@ -32,6 +34,17 @@ export function Recipe(){
         <RecipeImage 
             source={{ uri: cookie.image}}
         />
+        <Wrapper>
+            <IconContainer
+                onPress={()=> console.log("TESTELOL")}
+            >
+                <Ionicons
+                    name="chevron-back-circle-outline"
+                    size={50}
+                    color={'#0CBAA6'}
+                />
+            </IconContainer>
+        </Wrapper>
         <Content>
             <Title>{cookie.title}</Title>
             <Category>{cookie.category}</Category>

@@ -1,8 +1,27 @@
 import styled from 'styled-components/native';
+import { RectButton } from 'react-native-gesture-handler';
 
 export const Container = styled.View`
   flex: 1;
   align-items: center;
+  background-color: #f5f5f5;
+`;
+
+export const Wrapper = styled.View`
+    position: absolute;
+
+    width: 90%;
+    height: 50px;
+
+    margin-top: 50px;
+`;
+
+export const IconContainer = styled(RectButton)`
+    height: 100%;
+    width: 50px;
+
+    align-items: center;
+    justify-content: center;
 `;
 
 export const RecipeImage = styled.Image`

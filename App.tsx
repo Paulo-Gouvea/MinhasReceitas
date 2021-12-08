@@ -6,6 +6,6 @@ import { Ingredients } from './src/screens/Ingredients';
 
 export default function App() {
   return (
-    <Ingredients />
+    <Home />
   );
 }
