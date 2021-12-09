@@ -1,11 +1,10 @@
 import React from 'react';
+import 'react-native-gesture-handler';
 
-import { Home } from './src/screens/Home';
-import { Recipe } from './src/screens/Recipe';
-import { Ingredients } from './src/screens/Ingredients';
+import { Routes } from './src/routes';
 
 export default function App() {
   return (
-    <Home />
+    <Routes />
   );
 }
