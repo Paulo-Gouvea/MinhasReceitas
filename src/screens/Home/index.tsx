@@ -1,6 +1,9 @@
 import React from 'react';
 import { StatusBar } from 'react-native';
 
+import { useNavigation } from '@react-navigation/native';
+import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+
 import {
     Container,
     Title,
@@ -9,10 +12,21 @@ import {
 } from './styles';
 
 import { recipes } from '../../utils/recipes';
+import { FoodProps } from '../../interface/FoodProps';
 
 import { RecipeCard } from '../../components/RecipeCard';
 
-export function Home(){
+interface HomeProps {
+    navigation: NativeStackNavigationProp<any, any>;
+}
+
+export function Home({ navigation }: HomeProps){
+    navigation = useNavigation();
+
+    function handleRecipeScreen(food: FoodProps){
+        navigation.navigate("Recipe", { food });
+    }
+
     return (
         <Container>
             <StatusBar
@@ -30,7 +44,7 @@ export function Home(){
                     renderItem={({item})=> (
                         <RecipeCard
                             data={item}
-                            onPress={()=> console.log(item.title)}
+                            onPress={() => handleRecipeScreen(item)}
                         />
                     )}
                 />

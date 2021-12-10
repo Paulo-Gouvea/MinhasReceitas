@@ -9,14 +9,10 @@ import {
  RecipeCategory,
 } from './styles';
 
-interface DataProps {
-    image: string;
-    title: string;
-    category: string;
-}
+import { FoodProps } from '../../interface/FoodProps';
 
 interface RecipeProps extends RectButtonProps {
-    data: DataProps;
+    data: FoodProps;
 }
 
 export function RecipeCard({

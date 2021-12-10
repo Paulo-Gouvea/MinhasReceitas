@@ -1,12 +1,7 @@
 import styled from 'styled-components/native';
 import { FlatList, FlatListProps } from 'react-native';
 
-interface RecipeProps {
-  id: string;
-  image: string;
-  title: string;
-  category: string;
-}
+import { FoodProps } from '../../interface/FoodProps';
 
 export const Container = styled.View`
   flex: 1;
@@ -29,5 +24,5 @@ export const Wrapper = styled.View`
 `;
 
 export const RecipeList = styled(
-  FlatList as new (props: FlatListProps<RecipeProps>) => FlatList<RecipeProps>
+  FlatList as new (props: FlatListProps<FoodProps>) => FlatList<FoodProps>
 )``;

@@ -2,6 +2,9 @@ import React from 'react';
 import { StatusBar, ScrollView } from 'react-native';
 import { Entypo, AntDesign, Ionicons } from '@expo/vector-icons';
 
+import { useNavigation, useRoute } from '@react-navigation/native';
+import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+
 import {
  Container,
  Wrapper,
@@ -17,12 +20,26 @@ import {
  IconContainer,
 } from './styles';
 
-import { recipes } from '../../utils/recipes';
+import { FoodProps } from '../../interface/FoodProps';
 
 import { Button } from '../../components/Button';
 
-export function Recipe(){
-    const cookie = recipes[0];
+interface Params{
+    food: FoodProps;
+}
+
+interface RecipeProps {
+    navigation: NativeStackNavigationProp<any, any>;
+}
+
+export function Recipe({ navigation }: RecipeProps){
+    navigation = useNavigation();
+    const route = useRoute();
+    const { food } = route.params as Params;
+
+    function HandleGoBack(){
+        navigation.goBack();
+    }
 
    return (
     <Container>
@@ -32,11 +49,11 @@ export function Recipe(){
             barStyle="light-content"
         />
         <RecipeImage 
-            source={{ uri: cookie.image}}
+            source={{ uri: food.image}}
         />
         <Wrapper>
             <IconContainer
-                onPress={()=> console.log("TESTELOL")}
+                onPress={HandleGoBack}
             >
                 <Ionicons
                     name="chevron-back-circle-outline"
@@ -46,14 +63,14 @@ export function Recipe(){
             </IconContainer>
         </Wrapper>
         <Content>
-            <Title>{cookie.title}</Title>
-            <Category>{cookie.category}</Category>
+            <Title>{food.title}</Title>
+            <Category>{food.category}</Category>
             <Preparation>
                 <Entypo
                     name="stopwatch"
                     size={20}
                 />
-                <PreparationText>{cookie.preparationTime}</PreparationText>
+                <PreparationText>{food.preparationTime}</PreparationText>
             </Preparation>
 
             <Button 
@@ -67,7 +84,7 @@ export function Recipe(){
                     style={{paddingTop: 5}}
                 >    
                     {
-                        cookie.directions.map((item)=> (
+                        food.directions.map((item)=> (
                             <DirectionContainer
                                 key={item}
                             >
