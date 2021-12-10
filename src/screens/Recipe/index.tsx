@@ -37,8 +37,12 @@ export function Recipe({ navigation }: RecipeProps){
     const route = useRoute();
     const { food } = route.params as Params;
 
-    function HandleGoBack(){
+    function handleGoBack(){
         navigation.goBack();
+    }
+
+    function handleIngredientsScreen(food: FoodProps){
+        navigation.navigate("Ingredients", { food });
     }
 
    return (
@@ -53,7 +57,7 @@ export function Recipe({ navigation }: RecipeProps){
         />
         <Wrapper>
             <IconContainer
-                onPress={HandleGoBack}
+                onPress={handleGoBack}
             >
                 <Ionicons
                     name="chevron-back-circle-outline"
@@ -75,7 +79,7 @@ export function Recipe({ navigation }: RecipeProps){
 
             <Button 
                 title="Ver os ingredientes"
-                onPress={() => console.log("Ver os ingredientes")}
+                onPress={() => handleIngredientsScreen(food)}
             />
 
             <Direction>

@@ -1,6 +1,9 @@
 import React from 'react';
 import { StatusBar } from 'react-native';
 
+import { useNavigation, useRoute } from '@react-navigation/native';
+import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+
 import {
    Container,
    Header,
@@ -8,12 +11,28 @@ import {
    IngredientList
 } from './styles';
 
-import { recipes } from '../../utils/recipes';
+import { FoodProps } from '../../interface/FoodProps';
 
 import { IngredientCard } from '../../components/IngredientCard';
 
-export function Ingredients(){
-   const DATA = recipes[0].ingredients;
+interface Params {
+   food: FoodProps;
+}
+
+interface IngredientsProps {
+   navigation: NativeStackNavigationProp<any, any>;
+}
+
+export function Ingredients({ navigation }: IngredientsProps){
+   navigation = useNavigation();
+   const route = useRoute()
+   const { food } = route.params as Params;
+   const DATA = food.ingredients;
+
+   function handleGoBack(){
+      navigation.goBack();
+  }
+
    return (
     <Container>
        <Header>
@@ -28,6 +47,7 @@ export function Ingredients(){
          data={DATA}
          keyExtractor={(item) => item.id}
          numColumns={3}
+         showsVerticalScrollIndicator={false}
          renderItem={({item})=> (
             <IngredientCard
                image={item.image}
@@ -40,12 +60,3 @@ export function Ingredients(){
     </Container>
    );
 }
-
-{/* 
-   <IngredientCard 
-image={data.image}
-title={data.title}
-quantity={data.quantity}
-/> 
-
-*/}
