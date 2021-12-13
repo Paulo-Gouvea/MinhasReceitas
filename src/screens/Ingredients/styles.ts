@@ -12,20 +12,25 @@ export const Container = styled.View`
   flex: 1;
   background-color: #f5f5f5;
 
-  align-items: center;
-  justify-content: center;
-
   padding: 60px 0;
 `;
 
 export const Header = styled.View`
-  width: 100%;
+  width: 70%;
+
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 `;
 
 export const Title = styled.Text`
   font-size: 30px;
   font-weight: bold;
+`;
+
+export const IngredientListWrapper = styled.View`
+  margin: 0 10px;
+  margin-top: 15px;
 `;
 
 export const IngredientList = styled(

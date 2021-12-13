@@ -8,12 +8,14 @@ import {
    Container,
    Header,
    Title,
+   IngredientListWrapper,
    IngredientList
 } from './styles';
 
 import { FoodProps } from '../../interface/FoodProps';
 
 import { IngredientCard } from '../../components/IngredientCard';
+import { GoBackButton } from '../../components/GoBackButton';
 
 interface Params {
    food: FoodProps;
@@ -33,9 +35,17 @@ export function Ingredients({ navigation }: IngredientsProps){
       navigation.goBack();
   }
 
+   function handleIngredientDescriptionScreen(){
+      navigation.navigate("IngredientDescription");
+   }
+
    return (
     <Container>
        <Header>
+         <GoBackButton 
+            title="Voltar"
+            onPress={handleGoBack}
+         />
          <Title>Ingredientes</Title>
       </Header>
          <StatusBar
@@ -43,20 +53,22 @@ export function Ingredients({ navigation }: IngredientsProps){
             backgroundColor="transparent"
             barStyle="dark-content"
         />
-       <IngredientList
-         data={DATA}
-         keyExtractor={(item) => item.id}
-         numColumns={3}
-         showsVerticalScrollIndicator={false}
-         renderItem={({item})=> (
-            <IngredientCard
-               image={item.image}
-               title={item.title}
-               quantity={item.quantity}
-               onPress={()=> console.log(item.title)}
-            />
-         )}
-       />
+      <IngredientListWrapper>
+         <IngredientList
+            data={DATA}
+            keyExtractor={(item) => item.id}
+            numColumns={3}
+            showsVerticalScrollIndicator={false}
+            renderItem={({item})=> (
+               <IngredientCard
+                  image={item.image}
+                  title={item.title}
+                  quantity={item.quantity}
+                  onPress={handleIngredientDescriptionScreen}
+               />
+            )}
+         />
+      </IngredientListWrapper>
     </Container>
    );
 }

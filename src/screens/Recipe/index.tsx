@@ -61,8 +61,14 @@ export function Recipe({ navigation }: RecipeProps){
             >
                 <Ionicons
                     name="chevron-back-circle-outline"
-                    size={50}
+                    size={45}
                     color={'#0CBAA6'}
+                    style={{
+                        backgroundColor: 'white', 
+                        alignItems: "center", 
+                        justifyContent: "center",
+                        borderRadius: 55,
+                    }}
                 />
             </IconContainer>
         </Wrapper>

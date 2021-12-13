@@ -7,7 +7,7 @@ import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import {
     Container,
     Title,
-    Wrapper,
+    RecipeListWrapper,
     RecipeList,
 } from './styles';
 
@@ -35,7 +35,7 @@ export function Home({ navigation }: HomeProps){
                 barStyle="dark-content"
             />
             <Title>MINHAS RECEITAS</Title>
-            <Wrapper>
+            <RecipeListWrapper>
                 <RecipeList
                     data={recipes}
                     keyExtractor={(item)=> item.id}
@@ -48,7 +48,7 @@ export function Home({ navigation }: HomeProps){
                         />
                     )}
                 />
-            </Wrapper>
+            </RecipeListWrapper>
         </Container>
     );
 }
