@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { StatusBar } from 'react-native';
 
 import { useNavigation, useRoute } from '@react-navigation/native';
@@ -18,9 +18,14 @@ import {
 import { recipes } from '../../utils/recipes';
 
 import { FoodProps } from '../../interface/FoodProps';
+import { IngredientProps } from '../../interface/IngredientProps';
 
 import { GoBackButton } from '../../components/GoBackButton';
 import { RecipeCard } from '../../components/RecipeCard';
+
+interface Params {
+    ingredient: IngredientProps;
+}
 
 interface IngredientDescriptionProps{
     navigation: NativeStackNavigationProp<any, any>;
@@ -28,6 +33,14 @@ interface IngredientDescriptionProps{
 
 export function IngredientDescription({ navigation }: IngredientDescriptionProps){
     navigation = useNavigation();
+    const route = useRoute();
+    const { ingredient } =  route.params as Params;
+
+    const filteredRecipes = recipes.filter(
+        recipe => recipe.ingredients.find(
+            item => item.title === ingredient.title
+        )
+    )
 
     function handleGoBack(){
         navigation.goBack();
@@ -37,6 +50,10 @@ export function IngredientDescription({ navigation }: IngredientDescriptionProps
         navigation.navigate("Recipe", { food });
     }
 
+    useEffect(()=> {
+        console.log(filteredRecipes);
+    }, [])
+
    return (
     <Container>
         <Header>
@@ -45,7 +62,7 @@ export function IngredientDescription({ navigation }: IngredientDescriptionProps
             onPress={handleGoBack}
          />
          <TitleContainer>
-            <Title>oleo</Title>
+            <Title>{ingredient.title}</Title>
         </TitleContainer>
       </Header>
          <StatusBar
@@ -54,13 +71,13 @@ export function IngredientDescription({ navigation }: IngredientDescriptionProps
             barStyle="dark-content"
         />
         <IngredientImage 
-            source={{ uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg2_MZDp7suKMriSGPW8UE4FNOtzs8wwnuZA&usqp=CAU" }}
+            source={{ uri: ingredient.image }}
             resizeMode='stretch'
         />
-        <RecipesWith>Receitas com oleo:</RecipesWith>
+        <RecipesWith>{`Receitas com ${ingredient.title}:`}</RecipesWith>
         <RecipeListWrapper>
                 <RecipeList
-                    data={recipes}
+                    data={filteredRecipes}
                     keyExtractor={(item)=> item.id}
                     showsVerticalScrollIndicator={false}
                     numColumns={2}

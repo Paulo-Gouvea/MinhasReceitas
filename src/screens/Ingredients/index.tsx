@@ -13,6 +13,7 @@ import {
 } from './styles';
 
 import { FoodProps } from '../../interface/FoodProps';
+import { IngredientProps } from '../../interface/IngredientProps';
 
 import { IngredientCard } from '../../components/IngredientCard';
 import { GoBackButton } from '../../components/GoBackButton';
@@ -35,8 +36,8 @@ export function Ingredients({ navigation }: IngredientsProps){
       navigation.goBack();
   }
 
-   function handleIngredientDescriptionScreen(){
-      navigation.navigate("IngredientDescription");
+   function handleIngredientDescriptionScreen(ingredient: IngredientProps){
+      navigation.navigate("IngredientDescription", { ingredient });
    }
 
    return (
@@ -64,7 +65,7 @@ export function Ingredients({ navigation }: IngredientsProps){
                   image={item.image}
                   title={item.title}
                   quantity={item.quantity}
-                  onPress={handleIngredientDescriptionScreen}
+                  onPress={() => handleIngredientDescriptionScreen(item)}
                />
             )}
          />
