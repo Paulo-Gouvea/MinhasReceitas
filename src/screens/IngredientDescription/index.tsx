@@ -50,10 +50,6 @@ export function IngredientDescription({ navigation }: IngredientDescriptionProps
         navigation.navigate("Recipe", { food });
     }
 
-    useEffect(()=> {
-        console.log(filteredRecipes);
-    }, [])
-
    return (
     <Container>
         <Header>
